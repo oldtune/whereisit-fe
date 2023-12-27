@@ -1,5 +1,5 @@
 ---
-import { MapComponent } from "../components/map";
+import { InteractiveMap } from "../components/interactive-map";
 import "../styles/app.css";
 ---
 
@@ -12,7 +12,6 @@ import "../styles/app.css";
     <title>Astro</title>
   </head>
   <body>
-    <MapComponent client:only="react" />
+    <InteractiveMap client:only="react" />
   </body>
 </html>
- ../components/map
